@@ -17,3 +17,6 @@ To use the ADC module, I followed the Freenove tutorial to set it up and used th
 
 <h3>Playing the Game</h3>
 From the main menu, you can either use your mouse to click start or click down on the joystick. As you play, your points accumulate and are displayed on the top left. To the right of your score is the NPC's score. The game lasts for 60 seconds. Once it is done, it will stop the game and display your points and the NPC's points. You can then restart the game by clicking down on the joystick or using your mouse.
+
+<h3>Editing the Game</h3>
+Since the code isn't optimal, editing the number of balls or number of NPCs is not straight forward. What is very simple is editing the difficulty of the game. You can change the baseline speed of the NPC by going to the <i>move_npc()</i> function and editing the <b>npc_speed</b> variable. I would not recommend going below 2 as it becomes way too easy. For even more customization change the multiplier computation in the <b>if</b> statement underneath the speed variable. The <i>multiplier</i>  serves as a way to control the fluid ability of the NPC to improve if you are getting too far ahead of it. The way I currently handle this on-the-fly improvement is by increasing the speed of the NPC as a percentage of how much you are beating it by. Try messing with those two and find settings that you like.
