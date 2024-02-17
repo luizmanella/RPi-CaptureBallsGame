@@ -13,11 +13,7 @@ A few things to note on setting up the game. You will need the following hardwar
   <li>A joystick (I used that which came with the Freenove kit)</li>
   <li>ADC module (I used the ADS7830)</li>
 </ul>
-To use the ADC module, I followed the Freenove tutorial to set it up and used their code to read the values produced by ADC and to covert to voltages.
-
-When setting up the breadboard, I chose to use the GPIO18 pin to connect to the joystick in order to read the Z-pin. As for the potentiometers of the joystick I used the pins A0, A1 on the ADC board.
+To use the ADC module, I followed the Freenove tutorial to set it up and used their code to read the values produced by ADC and to covert to voltages. When setting up the breadboard, I chose to use the GPIO18 pin to connect to the joystick in order to read the Z-pin. As for the potentiometers of the joystick I used the pins A0, A1 on the ADC board.
 
 <h3>Playing the Game</h3>
-From the main menu, you can either use your mouse to click start or click down on the joystick. As you play, your points accumulate and are displayed on the top left. To the right of your score is the NPC's score.
-
-The game lasts for 60 seconds. Once it is done, it will stop the game and display your points and the NPC's points. You can then restart the game by clicking down on the joystick or using your mouse.
+From the main menu, you can either use your mouse to click start or click down on the joystick. As you play, your points accumulate and are displayed on the top left. To the right of your score is the NPC's score. The game lasts for 60 seconds. Once it is done, it will stop the game and display your points and the NPC's points. You can then restart the game by clicking down on the joystick or using your mouse.
