@@ -163,7 +163,7 @@ def loop():
 
     def move_npc(position, targets, player_score, npc_score, compute_distance):
         npc_speed = 2.2
-        if player_score > npc_score:
+        if player_score > npc_score and npc_score > 0:
             multiplier = (player_score / npc_score)
         else:
             multiplier = 1
